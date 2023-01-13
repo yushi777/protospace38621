@@ -19,7 +19,7 @@ development:
   username: root
   password:
   host: localhost
-  database: ajax_app_development
+  database: protospace-38621_development
 
 test:
   <<: *default
@@ -27,7 +27,7 @@ test:
   username: root
   password:
   host: localhost
-  database: ajax_app_test
+  database: protospace-38621_test
 
 production:
   <<: *default
